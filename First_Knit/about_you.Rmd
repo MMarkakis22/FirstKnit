@@ -1,0 +1,94 @@
+---
+title: "First Knit"
+author: "Melissa Markakis"
+date: "Date, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm a student")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+###my answer     
+ I am sitting in the front row of the class. I always sit up front because I have a hard time seeing and hearing people. Doing this keeps me focused. I am sitting at seat/computer number 07. I do not like seat reassignment because I sit up front for medical reasons. 1 is my measurement about seat reassignment. I love team projects.
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+   Melissa is the name I prefere to be called during class time by my peers. My friends call me Missy but I dont always respond to it.
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  I want to be a teacher for either kindergarten or 1st grade. I have recently graduated with an A.S. in Child and Family Education. Currently enrolled at CSUB for Child and Family Studies and credential program. I am currently working towards my B.A. and credentials. I will one ay recieve my Masters. I have 3 certificates in Child Developement.
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+   I have been only as far at Hawaii. I plan to travel to Greece, Itally, Germany, etc. I have not ever been in the military. I dont know the branch names mot likely if I got drafted I want to be in Germany.
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  I need Math 115 for my upper devision B.A. classes. I have stated my Plans already but for hindsite I plan to open up my own school one day.
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  I rate myself between 3 and 7. I know some stuff and can get pretty geeky about it but I can get lost sometimes. My father was a computer programmer. I used Mac for 10 years and then have now moved on to Dell which I've used most of my life. I have a Windows Intel Core i3 7th gen Inspiron 13 7000 series to use at home. Currently working on my work with it. I do have internet access at home. I drive to class in one of my 2 cars. either the Honda Odessey or the 94 volks wagone cabrio with a VR6 bar legal motor swap. I have 3 hildren that limit when i can be at the college. I went to John R Wooden High school back in 2001. I am a IHSS worker for my mother and a full time mother and student.
+
+
+
